@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import BookList from "./components/BookList";
 
 function App() {
   return (
     <>
-      <h2>Bilal</h2>
+      <BookList />
     </>
   );
 }
